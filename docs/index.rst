@@ -11,6 +11,7 @@ Welcome to Temperature Conversion's documentation!
    :caption: Contents:
 
    project-intro.md   
+   info_temperatures.md
 
 
 NOT CURRENTLY USED -- Indices and tables
