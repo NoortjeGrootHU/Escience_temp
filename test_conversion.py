@@ -1,10 +1,10 @@
 from conversion import celcius_to_fahrenheit
+from conversion import celcius_to_kelvin
 
 # Must: start function with "test_" and start filename with "test_" in order to automatically apply pytest
 
 def test_celcius_to_fahrenheit():
-    fahr = celcius_to_fahrenheit(20)
-    assert fahr == 68
+    assert celcius_to_fahrenheit(20) == 68
     assert celcius_to_fahrenheit(0) ==32
     assert celcius_to_fahrenheit(None) is None
     
